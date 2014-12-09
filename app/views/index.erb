@@ -1,0 +1,12 @@
+<h1>Meetups</h1>
+
+<table >
+<tr>
+  <% @titles.each do |title|%>
+<tr>
+    <td><li><a href ="/<%= title.id %>"/a><%= title.name %></td>
+    </tr>
+  <%end %>
+</tr>
+<table>
+<h6><a href = "/add">Add new Meetup</a></h4>
