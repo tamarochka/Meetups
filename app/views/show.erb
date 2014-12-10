@@ -41,7 +41,7 @@
 
 <form action="/comment/<%= @meetup.id %>" method="post">
       <label for="meetup_comment">New Comment:</label>
-      <span><input type="text" width= "100px" id="meetup_comment" name="meetup_comment" />
+      <span><input type="text" width= "100px" id="meetup_comment" name="meetup_comment" required />
 
       <input type="submit" value="Add Comment"/></span>
 </form>
